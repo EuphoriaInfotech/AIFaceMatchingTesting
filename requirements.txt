@@ -1,7 +1,7 @@
 fastapi==0.110.0
 uvicorn==0.27.1
-opencv-python==4.9.0.80
+opencv-python-headless==4.9.0.80
 deepface==0.0.79
-pyngrok==7.1.6
-numpy<2
-
+retina-face==0.0.14
+numpy==1.26.4
+tensorflow-cpu==2.15.0
