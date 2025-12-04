@@ -14,3 +14,41 @@ https://github.com/EuphoriaInfotech/AIFaceMatchingTesting
 https://dashboard.render.com/web/srv-d4oufdkhg0os73cfitdg/deploys/dep-d4ouj12dbo4c73ftebq0
 
 Deploy > Deploy with last commit
+
+
+GOOGLE COLAB CODE(For Generating embeddings.pkl File):-
+--------------------------------------------------------
+from google.colab import files
+uploaded = files.upload()
+
+
+import os, shutil
+for file in uploaded:
+    shutil.move(file, f"known_faces/{file}")
+
+
+!pip install fastapi uvicorn opencv-python mediapipe deepface pyngrok
+
+
+from deepface import DeepFace
+import os
+import pickle
+
+KNOWN_DIR = "known_faces"
+db = {}
+
+for file in os.listdir(KNOWN_DIR):
+    path = f"{KNOWN_DIR}/{file}"
+    name = os.path.splitext(file)[0]
+    embedding = DeepFace.represent(path, model_name="Facenet")[0]["embedding"]
+    db[name] = embedding
+
+with open("embeddings.pkl", "wb") as f:
+    pickle.dump(db, f)
+
+print("✅ Face embeddings saved")
+
+
+
+
+
