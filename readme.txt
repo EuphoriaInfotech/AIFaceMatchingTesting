@@ -6,7 +6,7 @@ https://colab.research.google.com/drive/1TdJhI3D4nefQsshnaGcj95F-zDXXlPdd#scroll
 
 3. Upload images to "known_faces" Folder.
 
-4. Rum "Generate embeddings.pkl File" Command.
+4. Generate "embeddings.pkl" using 1 to 6 Commands.
 
 5. Copy "embeddings.pkl" File and Paste it to Github Repo:
 https://github.com/EuphoriaInfotech/AIFaceMatchingTesting
