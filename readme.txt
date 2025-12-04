@@ -14,6 +14,7 @@ https://github.com/EuphoriaInfotech/AIFaceMatchingTesting
 https://dashboard.render.com/web/srv-d4oufdkhg0os73cfitdg/deploys/dep-d4ouj12dbo4c73ftebq0
 
 7. Set Environment_Settings:
+https://dashboard.render.com/web/srv-d4oufdkhg0os73cfitdg/env
 PYTHON_VERSION  :   3.10.13
 
 Deploy > Deploy with last commit
