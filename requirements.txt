@@ -3,7 +3,8 @@ uvicorn==0.27.1
 opencv-python-headless==4.9.0.80
 deepface==0.0.79
 retina-face==0.0.14
-tensorflow-cpu==2.15.0
+tensorflow-cpu==2.20.0
 scipy==1.11.4
 numpy==1.26.4
+
 
