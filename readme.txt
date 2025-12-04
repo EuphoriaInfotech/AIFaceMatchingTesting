@@ -1,6 +1,7 @@
 1. Login: euphoriainfotech.apps@gmail.com
 
 2. Goto Google COLAB.
+https://colab.research.google.com/drive/1TdJhI3D4nefQsshnaGcj95F-zDXXlPdd?usp=sharing
 https://colab.research.google.com/drive/1TdJhI3D4nefQsshnaGcj95F-zDXXlPdd#scrollTo=a9ifoqP5tp9d
 
 3. Upload images to "known_faces" Folder.
