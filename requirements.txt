@@ -1,6 +1,6 @@
-fastapi
-uvicorn
-opencv-python
-mediapipe
-deepface
-pyngrok
+fastapi==0.110.0
+uvicorn==0.27.1
+opencv-python==4.9.0.80
+mediapipe==0.10.9
+deepface==0.0.79
+pyngrok==7.1.6
